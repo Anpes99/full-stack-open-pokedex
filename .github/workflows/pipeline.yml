@@ -34,3 +34,4 @@ jobs:
           heroku_email: anpesip99@gmail.com
           healthcheck: https://pokemoncicd.herokuapp.com/health
           checkstring: ok
+          rollbackonhealthcheckfailed: true
