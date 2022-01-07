@@ -31,5 +31,6 @@ jobs:
         with:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: pokemoncicd
+          heroku_email: anpesip99@gmail.com
           healthcheck: https://pokemoncicd.herokuapp.com/health
           checkstring: ok
