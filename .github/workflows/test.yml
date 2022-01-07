@@ -3,8 +3,6 @@ name: Testing stuff
 on:
   push:
     branches:
-      - master
-      - new-feature-branch
 
 jobs:
   a_test_job:
